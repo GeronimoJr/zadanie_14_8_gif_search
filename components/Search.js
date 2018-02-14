@@ -37,7 +37,7 @@ Search = React.createClass({
     },
     
     render: function() {
-        var styles = {fontSize: '1.5em', width: '90%', maxWidth: '350px'};
+        var styles = {fontSize: '1em', width: '90%', maxWidth: '350px', padding: '5px 5px'};
 
         return <input 
                     type='text'
